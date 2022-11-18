@@ -4,13 +4,14 @@
   "description": "Developer : Arghya Banerjee || Technology : Express ; Javascript ; W3 ; Node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon Server.js"
   },
   "author": "Arghya Banerjee",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.2",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   }
 }
