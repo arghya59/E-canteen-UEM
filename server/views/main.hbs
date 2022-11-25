@@ -25,10 +25,15 @@
         </div>
     </nav>
 
+
     <section id="main-area"
         style="padding: 20px; display: flex; justify-content: center; flex-direction: column; margin-left: auto; margin-right: auto;">
-        <section id="veg">
-            <div id="vegitems" class="heading itemshead"><span>Chinese canteen:</span> </div>
+
+
+        <!--Chinese Canteen-->
+        
+        <button id="vegitems"  class="collapsible heading itemshead ">Chinese canteen:</button>
+        <section id="veg" class="content">
             <div class="roti_and_bread">
                 <div class="heading">STARTER</div>
                 <hr>
@@ -85,7 +90,7 @@
 
 
                 <div class="item-container">
-                 <div class="itemsbox">
+                    <div class="itemsbox">
                         <div class="itemsimage"> <img src="./Assets/manchurian rice.jpeg"></div>
                         <div class="itemDetails">
                             <h2>Manchurian Rice</h2>
@@ -127,73 +132,75 @@
                                 <input type="submit" value="Add" placeholder="Add">
                             </form>
                         </div>
-                    </div>   
+                    </div>
                 </div>
 
-                
-                
+
+
             </div>
-                <hr>
+            <hr>
 
-                <div class="heading" style="text-align: center ; margin: 20px">Non-Veg Items</div>
-                <hr>
-                <div class="item-container">
-                 <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/Tripple rice.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Tripple Rice</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+            <div class="heading" style="text-align: center ; margin: 20px">Non-Veg Items</div>
+            <hr>
+            <div class="item-container">
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/Tripple rice.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Tripple Rice</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/Chicken-Fried-Rice.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Chicken Fried Rice</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/butter-chicken.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Butter Chicken</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/Fried egg Rice.jpeg"></div>
-                        <div class="itemDetails">
-                            <h2>Fried Egg Rice</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
-                    </div>   
                 </div>
 
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/Chicken-Fried-Rice.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Chicken Fried Rice</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/butter-chicken.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Butter Chicken</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/Fried egg Rice.jpeg"></div>
+                    <div class="itemDetails">
+                        <h2>Fried Egg Rice</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
+                    </div>
+                </div>
             </div>
 
-            
+            </div>
+
+
 
 
 
 
         </section>
 
-        <section id="non-veg">
-            <div class="heading itemshead"> <span>Bengali Canteen</span></div>
+
+        <!--Bengali Canteen-->
+        <button class="collapsible heading itemshead">Bengali Canteen</button>
+        <section id="non-veg" class="content">
             <div id="beverages">
                 <div class="heading">Beverages ></div>
                 <hr>
@@ -291,7 +298,7 @@
             <div id="non-veg-mainCourse">
                 <div class="heading">Main Course ></div>
                 <hr>
-<div class="item-container">
+                <div class="item-container">
                     <div class="itemsbox">
                         <div class="itemsimage"> <img src="./Assets/Chicken-Biryani.jpg"></div>
                         <div class="itemDetails">
@@ -335,136 +342,157 @@
                 </div>
 
 
-                
+
             </div>
 
         </section>
 
-        <section id="non-veg">
-            <div class="heading itemshead"> <span>Night Canteen</span></div>
+
+        <!--Night Canteen-->
+        <button class="collapsible heading itemshead">Night Canteen</button>
+        <section id="non-veg" class="content">
             <div class="item-container">
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/sting.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Sting</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/sting.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Sting</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/pepsi 1.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Pepsi</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/pepsi 1.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Pepsi</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/sprite.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Sprite</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/sprite.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Sprite</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/mountain dew.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Mountain Dew</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/mountain dew.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Mountain Dew</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/egg roll.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Egg Roll</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/egg roll.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Egg Roll</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/bread-omelette.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Bread Omlette</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/bread-omelette.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Bread Omlette</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/Omelette-1.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Omlette</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/Omelette-1.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Omlette</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/plain maggie.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Plain Maggie</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/plain maggie.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Plain Maggie</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/egg-maggi.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Egg Maggie</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/egg-maggi.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Egg Maggie</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/fried maggie.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Fried Maggie</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/fried maggie.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Fried Maggie</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/half fried egg.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Half Fried Egg</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/half fried egg.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Half Fried Egg</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                    <div class="itemsbox">
-                        <div class="itemsimage"> <img src="./Assets/boiled egg.jpg"></div>
-                        <div class="itemDetails">
-                            <h2>Boiled Eggs</h2>
-                            <form action="">
-                                <input type="number" placeholder="Qnt" size="4" required>
-                                <input type="submit" value="Add" placeholder="Add">
-                            </form>
-                        </div>
+                </div>
+                <div class="itemsbox">
+                    <div class="itemsimage"> <img src="./Assets/boiled egg.jpg"></div>
+                    <div class="itemDetails">
+                        <h2>Boiled Eggs</h2>
+                        <form action="">
+                            <input type="number" placeholder="Qnt" size="4" required>
+                            <input type="submit" value="Add" placeholder="Add">
+                        </form>
                     </div>
-                
+                </div>
+
+        </section>
+
+
     </section>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

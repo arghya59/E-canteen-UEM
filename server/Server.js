@@ -35,8 +35,8 @@ app.get('/Registration', (req, res)=>{
     res.render('registration')
 })
 //About...
-app.get('/Registration', (req, res)=>{
-    res.send('This is about page yet to be ready')
+app.get('/About', (req, res)=>{
+    res.render('about')
 })
 //Main page...
 app.get('/Main', (req, res)=>{
