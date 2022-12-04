@@ -4,6 +4,9 @@ const app = Express();
 const path = require('path');
 const hbs = require('hbs');
 
+//db
+require("./database/databaseConn")
+
 //Connections :
 const Host = "127.0.0.1";
 const Port = 8800;
